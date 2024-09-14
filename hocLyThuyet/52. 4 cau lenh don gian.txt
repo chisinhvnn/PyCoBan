@@ -1,0 +1,14 @@
+#Thêm vào 1 dữ liệu
+INSERT INTO table (cola, colb) VALUES ("val1",val2)
+#Sửa dữ liệu
+UPDATE table SET cola ="Teo" WHERE ID =1
+#Xoá dữ liệu
+DELETE FROM table WHERE id=1
+#lấy toàn bộ dữ liệu của bảng
+SELECT * FROM table 
+#lấy toàn bộ dữ liệu của bảng THEO ĐIỀU KIỆN
+SELECT * FROM table WHERE id=1
+#lấy dữ liệu MỚI NHẤT/CỦ NHÂT CỦA BẢNG
+SELECT *FROM table ORDER BY ID DESC/ASC
+#LẤY DỮ LIỆU THEO ĐIÈU KIỆN GIỚI HẠN
+SELECT *FROM table LIMIT 2,2
