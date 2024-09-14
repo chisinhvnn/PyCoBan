@@ -4,3 +4,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/chisinhvnn/PyCoBan.git
 git push -u origin main
+
+# Đưa code len github (lần đầu)
+git push -u origin <Tên nhánh>
