@@ -1,9 +1,9 @@
 import sys
 from PySide6 import QtCore,QtGui,QtWidgets
-from PySide6.QtWidgets import QApplication,QMainWindow,QVBoxLayout,QFrame,QWidget
+from PySide6.QtWidgets import QApplication, QMainWindow, QVBoxLayout, QFrame, QWidget
 from PySide6.QtCore import QSize
 class MainWidown(QMainWindow):
-    def __init__(self ): 
+    def __init__(self):
         super().__init__()
 
         #Đặt tên tiêu đề
@@ -15,7 +15,7 @@ class MainWidown(QMainWindow):
         self.setCentralWidget(main_widget)
         main_widget.setLayout(main_layuot)
         #thiết lập kích thước
-        self.resize(QSize(800,600))
+        self.resize(QSize(400, 300))
 
 
         lv1Fame = QFrame()
@@ -30,9 +30,8 @@ class MainWidown(QMainWindow):
         main_layuot.addWidget(lv3Fame)
         
 
-if __name__== "__main__":
-    app  = QApplication(sys.argv)
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
     window = MainWidown()
     window.show()
-    sys.exit(app.exec_())
-      
+    sys.exit(app.exec())
