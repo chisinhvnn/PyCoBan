@@ -7,3 +7,15 @@ git push -u origin main
 
 # Đưa code len github (lần đầu)
 git push -u origin <Tên nhánh>
+
+#Tạo nhanh
+git branhc <TenNhanh>
+
+#xem tất cả các nhánh
+git branch -l
+
+#làm việc với nhánh
+git checkout <TenNhanh>
+
+Dua nhanh lenh Github
+git push --set-upstream origin <TenNhanh>
